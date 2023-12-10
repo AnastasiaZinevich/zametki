@@ -1,0 +1,153 @@
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif; /* Новый шрифт */
+  
+    h1 {
+      margin-bottom: 20px;
+      font-size: 32px;
+      color: #333;
+    }
+  
+    form {
+      margin-bottom: 20px;
+  
+      input,
+      textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        background-color: #f9f9f9;
+        border-radius: 4px;
+      }
+  
+      textarea {
+        resize: none;
+        height: auto;
+        min-height: 100px;
+        max-height: 300px;
+        font-family: Arial, sans-serif; 
+      }
+  
+      button {
+        
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: Arial, sans-serif; 
+  
+        &:first-of-type {
+          margin-right: 10px;
+        }
+      }
+    }
+  
+    select {
+      margin-bottom: 20px;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      background-color: #f9f9f9;
+      border-radius: 4px;
+      font-family: Arial, sans-serif;
+    }
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+  
+      li {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif; 
+  
+        h3 {
+          margin: 0;
+          font-size: 24px;
+          color: #333;
+          margin-bottom: 14px;
+        }
+  
+        p {
+          margin: 0;
+          margin-bottom: 4px;
+          font-size: 16px;
+          color: #666;
+          line-height: 1.5; 
+        }
+  
+        button {
+          padding: 10px 20px;
+          background-color: #f44336;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          font-size: 16px;
+          cursor: pointer;
+          font-family: Arial, sans-serif; 
+  
+          &:first-of-type {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  
+    @media (max-width: 400px) {
+      padding: 10px;
+  
+      h1 {
+        font-size: 24px;
+      }
+  
+      form {
+        input,
+        textarea {
+          padding: 10px;
+          font-size: 14px;
+          width: 95%;
+        }
+  
+        button {
+            width: 100%;
+          padding: 10px 16px;
+          font-size: 14px;
+        }
+      }
+  
+      select {
+        padding: 8px;
+        font-size: 14px;
+      }
+  
+      ul {
+        li {
+          padding: 10px;
+          h3 {
+            font-size: 20px;
+          }
+  
+          p {
+            font-size: 14px;
+          }
+  
+          button {
+            padding: 8px 16px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
